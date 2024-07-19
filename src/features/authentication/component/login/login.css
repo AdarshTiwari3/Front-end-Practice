@@ -52,8 +52,11 @@
     font-family: cursive !important;
   }
   
+
+  
   .loginButton {
     margin-top: 1.5rem !important;
+    text-transform: none !important;
   }
  
 
