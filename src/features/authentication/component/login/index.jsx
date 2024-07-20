@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Grid, TextField, Button, Box, Typography, InputAdornment, IconButton } from '@mui/material';
 import { Visibility, VisibilityOff, AccountCircle, Key } from '@mui/icons-material';
 import loginImage from '../../../../assets/images/login2.jpg';
-import logoImage from '../../../../assets/images/loginImage.jpg';
+import logoImage from '../../../../assets/images/adarsh_logo.png';
 import './login.css';
 
 const Login = () => {
@@ -45,9 +45,10 @@ const Login = () => {
           <Box 
             className="logoBox"
           >
-            <p className="logoText">
+            {/* <p className="logoText">
               Adarsh
-            </p>
+            </p> */}
+            <img src={logoImage} alt="logo" className="logoImage"/>
           </Box>
           <Typography variant="h5" align="center" gutterBottom>
             Login
